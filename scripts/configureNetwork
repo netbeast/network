@@ -1,0 +1,10 @@
+#!/bin/bash
+
+BIND=$1
+SSID=$2
+PASS=$3
+PASSR=$4
+CHANNEL=$5
+
+sudo bindName $BIND
+sudo wifi $SSID $PASS $PASSR $CHANNEL

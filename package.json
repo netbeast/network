@@ -1,0 +1,34 @@
+{
+  "name": "network",
+  "version": "1.0.0",
+  "description": "NetworkApp.",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.12.3",
+    "minimist": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server.js --port 31416",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "netbeast": {
+    "type": "settings"
+    },
+  "keywords": [
+    "iot",
+    "netbeast",
+    "netbeast.co"
+  ],
+  "author": "luis@netbeast.co",
+  "license": "GPL 2",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "https:netbeast.co"
+}

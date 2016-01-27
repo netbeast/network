@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Settings</title>
+	<link rel="stylesheet" href="css/nb-bootstrap.css" media="screen">
+</head>
+<body>
+	<div class='container text-center'>
+		<script src="index.js"></script>
+
+		<h2>Network Configuration</h2>
+		<form name="form" action=".formulario" method="post" onsubmit="return validateForm()">
+			<br>
+			<h4>URL Browser Name</h4>
+			<div class="input-group col-xs-4 col-lg-offset-4 container text-center">
+				<input type="text" class="form-control" placeholder="URL Name" aria-describedby="basic-addon1" name="url_name">
+			</div>
+			<br>
+			<h4><img src="icons/WiFi.png" alt="wifi network" style='width:50px;'>&nbsp;&nbsp;&nbsp;&nbsp;Wifi Configuration</h4>
+			<div class="input-group col-xs-4 col-lg-offset-4 container text-center">
+				<input type="text" class="form-control" placeholder="Wifi Network Name" aria-describedby="basic-addon1" name="SSID">
+			</div>
+			<br>
+			<div class="input-group col-xs-4 col-lg-offset-4 container text-center">
+				<input type="password" class="form-control" placeholder="Password" aria-describedby="basic-addon2" name="password">
+			</div>
+			<br>
+			<div class="input-group col-xs-4 col-lg-offset-4 container text-center">
+				<input type="password" class="form-control" placeholder="Repeat Password" aria-describedby="basic-addon1" name="password_r">
+			</div>
+			<br>
+			<div class="input-group col-xs-4 col-lg-offset-4 container text-center">
+				<input type="text" class="form-control" placeholder="Channel" aria-describedby="basic-addon2" name="channel">
+			</div>
+			<br>
+			<h4><img src="icons/Bluetooth.png" alt="Bluetooth network" style='width:50px;'>&nbsp;Bluetooth Configuration</h4>
+			<div class="input-group col-xs-4 col-lg-offset-4 container text-center">
+				<!--	<input type="text" class="form-control" placeholder="Bluetooth Name" aria-describedby="basic-addon2" name="Bluename">-->
+				<p>Coming Soon</p>
+			</div>
+			<br>
+
+			<input name="button" type="submit" class="btn btn-primary" value="Save Changes">
+		</form>
+	</div>
+</body>
+</html>
